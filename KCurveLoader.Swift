@@ -124,7 +124,7 @@ class KCurveLoader {
         textAnimateSetup(loadingText)
         
         displayLink.isPaused = false
-        displayLink.frameInterval = 9
+        displayLink.preferredFramesPerSecond = 5
 
     }
     
